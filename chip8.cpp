@@ -69,13 +69,125 @@ Chip8::Chip8()
 
     // Initialize rand num generator of range (0, 255) 
     randByte = std::uniform_int_distribution<uint8_t>(0, 255U);
+
+    // Function pointer table
+    // First three letter is 00E, Tb0 function makes the class pointer depending on last digit (0 or E)
+    table[0x0] = &Chip8::Tb0;
+    // table[0x1:0xD] points to functions whose entire opcode is unique
+    table[0x1] = &Chip8::OP_1nnn;
+    table[0x2] = &Chip8::OP_2nnn;
+    table[0x3] = &Chip8::OP_3xkk;
+    table[0x4] = &Chip8::OP_4xkk;
+    table[0x5] = &Chip8::OP_5xy0;
+    table[0x6] = &Chip8::OP_6xkk;
+    table[0x7] = &Chip8::OP_7xkk;
+    table[0x9] = &Chip8::OP_9xy0;
+    table[0xA] = &Chip8::OP_Annn;
+    table[0xB] = &Chip8::OP_Bnnn;
+    table[0xC] = &Chip8::OP_Cxkk;
+    table[0xD] = &Chip8::OP_Dxyn;
+    // TbE points to a function that matches its opcode and whose first digit is E
+    table[0xE] = &Chip8::TbE;
+    // TbF points to a function that matches its opcode and whose first digit is E
+    table[0xF] = &Chip8::TbF;
+
+    // Function pointer for Opcodes with first three digit 00E and last two E0
+    table0[0x0] = &Chip8::OP_00E0;
+    // Function pointer for Opcodes with first three digit 00E and last two EE
+    table0[0xE] = &Chip8::OP_00EE;
+
+    // Function pointers for Opcodes with first digit 8
+    table8[0x0] = &Chip8::OP_8xy0;
+    table8[0x1] = &Chip8::OP_8xy1;
+    table8[0x2] = &Chip8::OP_8xy2;
+    table8[0x3] = &Chip8::OP_8xy3;
+    table8[0x4] = &Chip8::OP_8xy4;
+    table8[0x5] = &Chip8::OP_8xy5;
+    table8[0x6] = &Chip8::OP_8xy6;
+    table8[0x7] = &Chip8::OP_8xy7;
+    table8[0xE] = &Chip8::OP_8xyE;
+
+    // Function pointers for Opcodes with first digit E
+    tableE[0x1] = &Chip8::OP_ExA1;
+    tableE[0xE] = &Chip8::OP_Ex9E;
+
+    // Function pointers for Opcodes with first digit F
+    tableF[0x07] = &Chip8::OP_Fx07;
+    tableF[0x0A] = &Chip8::OP_Fx0A;
+    tableF[0x15] = &Chip8::OP_Fx15;
+    tableF[0x18] = &Chip8::OP_Fx18;
+    tableF[0x1E] = &Chip8::OP_Fx1E;
+    tableF[0x29] = &Chip8::OP_Fx29;
+    tableF[0x33] = &Chip8::OP_Fx33;
+    tableF[0x55] = &Chip8::OP_Fx55;
+    tableF[0x65] = &Chip8::OP_Fx65;
+}
+
+void Chip8::Cycle(){
+    /*
+     * Instruction Cycle: Fetch
+     * Fetch opcode from memory where PC is pointing. Each memory location stores
+     * single byte, while an opcode is 2 bytes. Therefore, a byte at PC is fetched,
+     * right bit shifted, and another byte is OR'd so two bytes are combined.
+     */
+    opcode = (memory[pc] << 8u) | memory[pc+1];
+
+    /*
+     * Instruction Cycle: Increment PC
+     * PC now points at next instruction. It is incremented by 2 because CHIP-8's
+     * Opcode is 2 bytes long and each memory location is 1 byte long.
+     */
+    pc += 2;
+
+    /*
+     * Instruction Cycle: Decode & Execute
+     * Decode and execute opcode at the same time using function table!
+     * 12 bit is shifted to the right since our function table looks at first
+     * digit of the opcode.
+     */
+    ((*this).*(table[(opcode & 0xF000u) >> 12u]))();
+
+    // Decrement delay timer if set
+    if(delayTimer > 0){
+        --delayTimer;
+    }
+    
+    // Decrement sound timer if set (computer emits sound when sound timer is nonzero)
+    if(soundTimer > 0){
+        --soundTimer;
+    }
 }
 
 /*
-Opcode: 
-Functionality: 
-Implementation: 
-*/
+ * This gets the pointer of the current object, dereferences it, then dereferences the function 
+ * pointed by the function pointer array. What a mouthfull!
+ * 
+ * Tb0 function bimasks and extracts only last digit of an opcode,
+ * and this digit is used to access the matching function in the array.
+ * Only Opocdes that passes this function is opcodes whose first three digit is 00E
+ */
+void Chip8::Tb0(){
+    ((*this).*(table0[opcode & 0x000Fu]))();
+}
+
+// Only Opocdes that passes this function is opcodes whose first digit is 8
+void Chip8::Tb8(){
+    ((*this).*(table0[opcode & 0x000Fu]))();
+}
+
+// Only Opocdes that passes this function is opcodes whose first digit is E
+void Chip8::TbE(){
+    ((*this).*(table0[opcode & 0x000Fu]))();
+}
+
+// Only Opocdes that passes this function is opcodes whose first digit is F
+void Chip8::TbF(){
+    ((*this).*(table0[opcode & 0x00FFu]))();
+}
+
+// NULL function for invalid OPs
+void Chip8::OP_NULL(){
+}
 
 /* 
 Opcode: 00E0 (CLS)
@@ -485,7 +597,7 @@ void Chip8::OP_Dxyn(){
 /*
 Opcode: Ex9E (SKP Vx) 
 Functionality: Skip next instruction if key with the value of Vx is pressed
-Implementation: 
+Implementation: decrement PC by 2 if no key is pressed (which just creates an infinite loop)
 */
 void Chip8::OP_Ex9E(){
     uint8_t x = (opcode & 0x0F00u);
@@ -500,9 +612,186 @@ void Chip8::OP_Ex9E(){
 }
 
 /*
-Opcode: 
-Functionality: 
+Opcode: ExA1 (SKNP Vx)
+Functionality: Skip next instruction if key with the value of Vx is NOT pressed
 Implementation: 
 */
-void Chip8::OP_(){
+void Chip8::OP_ExA1(){
+    uint8_t x = (opcode & 0x0F00u);
+    x = x >> 8u;
+
+    uint8_t key = registers[x];
+
+    if(!keypad[key]){
+        pc += 2;
+    }
+}
+
+/*
+Opcode: Fx07 (LD Vx, DT)
+Functionality: set Vx as value of delay timer
+Implementation: 
+*/
+void Chip8::OP_Fx07(){
+    uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
+
+    registers[x] = delayTimer;
+}
+
+/*
+Opcode: Fx0A (LD, Vx, k)
+Functionality: Wati for keypress and store that value in Vx
+Implementation: 
+*/
+void Chip8::OP_Fx0A(){
+    uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
+
+    if (keypad[0]){
+        registers[x] = 0;
+    }
+    else if (keypad[1]){
+        registers[x] = 1;
+    }
+    else if (keypad[2]){
+        registers[x] = 2;
+    }
+    else if (keypad[3]){
+        registers[x] = 3;
+    }
+    else if (keypad[4]){
+        registers[x] = 4;
+    }
+    else if (keypad[5]){
+        registers[x] = 5;
+    }
+    else if (keypad[6]){
+        registers[x] = 6;
+    }
+    else if (keypad[7]){
+        registers[x] = 7;
+    }
+    else if (keypad[8]){
+        registers[x] = 8;
+    }
+    else if (keypad[9]){
+        registers[x] = 9; 
+    }
+    else if (keypad[10]){
+        registers[x] = 10;
+    }
+    else if (keypad[11]){
+        registers[x] = 11;
+    }
+    else if (keypad[12]){
+        registers[x] = 12;
+    }
+    else if (keypad[13]){
+        registers[x] = 13;
+    }
+    else if (keypad[14]){
+        registers[x] = 14;
+    }
+    else if (keypad[15]){
+        registers[x] = 15;
+    }
+    else{
+        pc -= 2;
+    }
+}
+
+/*
+Opcode: Fx15 (LD DT, Vx)
+Functionality: set delay timer as Vx
+Implementation: 
+*/
+void Chip8::OP_Fx15(){
+    uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
+
+    delayTimer = registers[x];
+}
+
+/*
+Opcode: Fx18 (LD ST, Vx)
+Functionality: set sound timer as Vx
+Implementation: 
+*/
+void Chip8::OP_Fx18(){
+    uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
+
+    soundTimer = registers[x];
+}
+
+/*
+Opcode: Fx1E (ADD I, Vx)
+Functionality: set I = I + Vx
+Implementation: 
+*/
+void Chip8::OP_Fx1E(){
+    uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
+
+    index += registers[x];
+}
+
+/*
+Opcode: Fx29 (LD F, Vx)
+Functionality: set I as location of sprite for digit Vx
+Implementation: 
+*/
+void Chip8::OP_Fx29(){
+    uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
+
+    index  = FONTSET_START_ADDRESS + (registers[x] * 5);
+}
+
+/*
+Opcode: Fx33 (LD B, Vx)
+Functionality: Store BCD rep of Vx (0~255) in mem loc I (1e2), I+1 (1e1), and I+x (1e0)
+Implementation: modulo 10 to extract smallest digit, store that, and divide 10 again.
+*/
+void Chip8::OP_Fx33(){
+    uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
+    uint8_t num = registers[x];
+
+    memory[index+2] = num % 10;
+    num /= 10;
+
+    memory[index+1] = num % 10;
+    num /= 10;
+
+    memory[index+1] = num % 10;
+}
+
+/*
+Opcode: Fx55 (LD [I], Vx)
+Functionality: Store registers V0 through Vx in mem starting at loc I
+Implementation: 
+*/
+void Chip8::OP_Fx55(){
+    uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
+
+    for(int i = 0; i <= x; ++i){
+        memory[index + i] = registers[x];
+    }
+}
+
+/*
+Opcode: Fx65 (LD Vx, [I])
+Functionality: Load registers V0 through Vx into mem starting at loc I
+Implementation: 
+*/
+void Chip8::OP_Fx65(){
+    uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
+
+    for(int i = 0; i <= x; ++i){
+        registers[x] = memory[index + i];
+    }
 }

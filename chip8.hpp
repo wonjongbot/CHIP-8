@@ -13,13 +13,14 @@ class Chip8{
         //constructor for the emulator
         Chip8();
         void LoadROM(char const* filename);
+        void Cycle();
 
         /* Data Structure for Chip8 class */
         // 15 general registers, 16th register is used to hold flag about operation results
         uint8_t registers[REGISTER_COUNT]{};
         // memory is 4k bits
         uint8_t memory[MEMORY_SIZE]{};
-        // Index register store memory addresses for use in operations; LC-3 equivalent of MAR
+        // Index register store memory addresses for use in operations; LC-3 equivalent of MAR but not rlly
         uint16_t index{};
         // Program counter
         uint16_t pc{};
@@ -44,6 +45,8 @@ class Chip8{
         // randByte will be used as seed
         std::uniform_int_distribution<uint8_t> randByte;
         
+        // NULL
+        void OP_NULL();
         // CLS
         void OP_00E0();
         // RET
@@ -92,4 +95,39 @@ class Chip8{
         void OP_Dxyn();
         // Ex9E
         void OP_Ex9E();
+        // ExA1
+        void OP_ExA1();
+        // Fx07
+        void OP_Fx07();
+        // Fx0A
+        void OP_Fx0A();
+        // Fx15
+        void OP_Fx15();
+        // Fx18
+        void OP_Fx18();
+        // Fx1E
+        void OP_Fx1E();
+        // Fx29
+        void OP_Fx29();
+        // Fx33
+        void OP_Fx33();
+        // Fx55
+        void OP_Fx55();
+        // Fx65
+        void OP_Fx65();
+
+        void Tb0();
+        void Tb8();
+        void TbE();
+        void TbF();
+
+        //declare pointer to function for function pointer array action
+        typedef void (Chip8::*Chip8Func)();
+        // I think these have problems where it cannot handle erroneous pointer value? Or since this is class its constructor will buidl OP_NULL for everything...?
+        Chip8Func table[0xF + 1]{&Chip8::OP_NULL};
+        Chip8Func table0[0xE + 1]{&Chip8::OP_NULL};
+        Chip8Func table8[0xE + 1]{&Chip8::OP_NULL};
+        Chip8Func tableE[0xE + 1]{&Chip8::OP_NULL};
+        Chip8Func tableF[0x65 + 1]{&Chip8::OP_NULL};
+
 };
