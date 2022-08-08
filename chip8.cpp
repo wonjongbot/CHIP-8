@@ -1,7 +1,10 @@
 #include "chip8.hpp"
 #include <fstream>
 #include <chrono>
+#include <cstdint>
 #include <random>
+#include <cstring>
+#include <iostream>
 
 const unsigned int START_ADDRESS = 0x200;
 const unsigned int FONTSET_SIZE = 80;
@@ -81,6 +84,7 @@ Chip8::Chip8()
     table[0x5] = &Chip8::OP_5xy0;
     table[0x6] = &Chip8::OP_6xkk;
     table[0x7] = &Chip8::OP_7xkk;
+    table[0x8] = &Chip8::Tb8;
     table[0x9] = &Chip8::OP_9xy0;
     table[0xA] = &Chip8::OP_Annn;
     table[0xB] = &Chip8::OP_Bnnn;
@@ -131,6 +135,7 @@ void Chip8::Cycle(){
      * right bit shifted, and another byte is OR'd so two bytes are combined.
      */
     opcode = (memory[pc] << 8u) | memory[pc+1];
+    std::cout << "executing "<<std::hex<<opcode<<std::endl;
 
     /*
      * Instruction Cycle: Increment PC
@@ -172,17 +177,17 @@ void Chip8::Tb0(){
 
 // Only Opocdes that passes this function is opcodes whose first digit is 8
 void Chip8::Tb8(){
-    ((*this).*(table0[opcode & 0x000Fu]))();
+    ((*this).*(table8[opcode & 0x000Fu]))();
 }
 
 // Only Opocdes that passes this function is opcodes whose first digit is E
 void Chip8::TbE(){
-    ((*this).*(table0[opcode & 0x000Fu]))();
+    ((*this).*(tableE[opcode & 0x000Fu]))();
 }
 
 // Only Opocdes that passes this function is opcodes whose first digit is F
 void Chip8::TbF(){
-    ((*this).*(table0[opcode & 0x00FFu]))();
+    ((*this).*(tableF[opcode & 0x00FFu]))();
 }
 
 // NULL function for invalid OPs
@@ -404,7 +409,7 @@ void Chip8::OP_8xy4(){
         registers[0xF] = 1u;
     }
     else{
-        registers[0xF] - 0u;
+        registers[0xF] = 0u;
     }
     /*registers[x] = total - 256u;*/ //this is also possible probably, but bitwise is faster
     registers[x] = total & 0xFFu;
@@ -428,7 +433,7 @@ void Chip8::OP_8xy5(){
         registers[0xF] = 1u;
     }
     else{
-        registers[0xF] - 0u;
+        registers[0xF] = 0u;
     }
 
     registers[x] = registers[x] - registers[y];
@@ -443,8 +448,9 @@ Implementation: use >> operator after bitmasking to get Vx
 void Chip8::OP_8xy6(){
 
     uint8_t x = opcode & 0x0F00u;
+    x = x >> 8u;
     // save LSB to VF
-    registers[0xF] = registers[x] & 0x1;
+    registers[0xF] = (registers[x] & 0x1);
 
     registers[x] = registers[x] >> 1;
 }
@@ -466,7 +472,7 @@ void Chip8::OP_8xy7(){
         registers[0xF] = 1u;
     }
     else{
-        registers[0xF] - 0u;
+        registers[0xF] = 0u;
     }
 
     registers[x] = registers[y] - registers[x];
@@ -587,7 +593,7 @@ void Chip8::OP_Dxyn(){
                 }
 
                 // XOR the sprite pixel with screen pixel to do cool stuff
-                *screenPixel = *screenPixel ^ 0xFFFFFFFF;
+                *screenPixel = (*screenPixel) ^ 0xFFFFFFFF;
             }
         }
     }
@@ -765,7 +771,7 @@ void Chip8::OP_Fx33(){
     memory[index+1] = num % 10;
     num /= 10;
 
-    memory[index+1] = num % 10;
+    memory[index] = num % 10;
 }
 
 /*
@@ -777,7 +783,7 @@ void Chip8::OP_Fx55(){
     uint8_t x = opcode & 0x0F00u;
     x = x >> 8u;
 
-    for(int i = 0; i <= x; ++i){
+    for(uint8_t i = 0; i <= x; ++i){
         memory[index + i] = registers[x];
     }
 }
@@ -791,7 +797,7 @@ void Chip8::OP_Fx65(){
     uint8_t x = opcode & 0x0F00u;
     x = x >> 8u;
 
-    for(int i = 0; i <= x; ++i){
+    for(uint8_t i = 0; i <= x; ++i){
         registers[x] = memory[index + i];
     }
 }

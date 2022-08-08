@@ -1,3 +1,5 @@
+#pragma once 
+
 #include <cstdint>
 #include <random>
 
@@ -15,29 +17,10 @@ class Chip8{
         void LoadROM(char const* filename);
         void Cycle();
 
-        /* Data Structure for Chip8 class */
-        // 15 general registers, 16th register is used to hold flag about operation results
-        uint8_t registers[REGISTER_COUNT]{};
-        // memory is 4k bits
-        uint8_t memory[MEMORY_SIZE]{};
-        // Index register store memory addresses for use in operations; LC-3 equivalent of MAR but not rlly
-        uint16_t index{};
-        // Program counter
-        uint16_t pc{};
-        // apparently CHIP-8 has 16 levels call stack; it can hold up til 16 PCs (17 function calls)
-        uint16_t stack[STACK_LEVEL]{};
-        // stack pointer
-        uint8_t sp{};
-        // 8 bit delay timer. Only decrements to 0 at rate of 60Hz
-        uint8_t delayTimer{};
-        // same as above but for sound. Decrements in 60Hz if non-zero
-        uint8_t soundTimer{};
         // input arrays
         uint8_t keypad[KEY_COUNT]{};
         // memory for display (64 x 32)
         uint32_t video[VIDEO_WIDTH * VIDEO_HEIGHT]{};
-        // opcodes!
-        uint16_t opcode;
 
     private:
         // random engine is called randGen
@@ -120,6 +103,26 @@ class Chip8{
         void Tb8();
         void TbE();
         void TbF();
+
+        /* Data Structure for Chip8 class */
+        // 15 general registers, 16th register is used to hold flag about operation results
+        uint8_t registers[REGISTER_COUNT]{};
+        // memory is 4k bits
+        uint8_t memory[MEMORY_SIZE]{};
+        // Index register store memory addresses for use in operations; LC-3 equivalent of MAR but not rlly
+        uint16_t index{};
+        // Program counter
+        uint16_t pc{};
+        // apparently CHIP-8 has 16 levels call stack; it can hold up til 16 PCs (17 function calls)
+        uint16_t stack[STACK_LEVEL]{};
+        // stack pointer
+        uint8_t sp{};
+        // 8 bit delay timer. Only decrements to 0 at rate of 60Hz
+        uint8_t delayTimer{};
+        // same as above but for sound. Decrements in 60Hz if non-zero
+        uint8_t soundTimer{};
+        // opcodes!
+        uint16_t opcode;
 
         //declare pointer to function for function pointer array action
         typedef void (Chip8::*Chip8Func)();
