@@ -452,7 +452,7 @@ void Chip8::OP_8xy6(){
     // save LSB to VF
     registers[0xF] = (registers[x] & 0x1);
 
-    registers[x] = registers[x] >> 1;
+    registers[x] = registers[x] >> 1u;
 }
 
 /*
@@ -489,7 +489,7 @@ void Chip8::OP_8xyE(){
     x = x>>8u;
 
     // save LSB to VF
-    registers[0xF] = registers[x] & 0x80;
+    registers[0xF] = registers[x] & 0x80u;
     registers[0xF] = registers[0xF] >> 7u;
 
     registers[x] = registers[x] << 1;
@@ -751,8 +751,9 @@ Implementation:
 void Chip8::OP_Fx29(){
     uint8_t x = opcode & 0x0F00u;
     x = x >> 8u;
+    uint8_t num = registers[x];
 
-    index  = FONTSET_START_ADDRESS + (registers[x] * 5);
+    index = FONTSET_START_ADDRESS + (5 * num);
 }
 
 /*
@@ -798,6 +799,6 @@ void Chip8::OP_Fx65(){
     x = x >> 8u;
 
     for(uint8_t i = 0; i <= x; ++i){
-        registers[x] = memory[index + i];
+        registers[i] = memory[index + i];
     }
 }
