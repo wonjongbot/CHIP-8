@@ -1,502 +1,468 @@
-❯ ./exe_name 10 0 Tetris\ \[Fran\ Dachille,\ 1991\].ch8
-executing a2b4
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing 6a02
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 200
-executing 23e6
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing 6b0c
+V0: 2 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 202
-executing 6a00
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 3e6
-executing 6019
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 3e8
-executing ee
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 3ea
-executing 22b6
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing 6c3f
+V0: c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 204
-executing 6705
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 2b6
-executing 6806
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 2b8
-executing 6904
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 2ba
-executing 611f
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 2bc
-executing 6510
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 2be
-executing 6207
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 2c0
+executing 6d0c
+V0: 3f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 206
+executing a2ea
+V0: c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 208
+executing dab6
+V0: c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 20a
+executing dcd6
+V0: c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 20c
+executing 6e00
+V0: c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 20e
+executing 22d4
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 210
+executing a2f2
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 2d4
+executing fe33
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 2d6
+executing f265
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 2d8
+executing f129
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 2da
+executing 6414
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 2dc
+executing 6500
+V0: 14 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 2de
+executing d455
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 2e0
+executing 7415
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 2e2
+executing f229
+V0: 15 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 2e4
+executing d455
+V0: 15 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 2e6
 executing ee
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 2c2
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0: V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0: V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:      V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:      V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:      V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:      V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: 
- V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: 
- V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0: 
- V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0: 
- V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: 
-     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: 
-     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0: 
-     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0: 
-     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: 
-     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: 
-     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0: 
-     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0: 
-     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
- V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
- V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
- V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
- V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: 1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: 1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0: 1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0: 1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0:   V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0:   V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0:   V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0:   V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: ! V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: ! V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0: ! V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0: ! V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: " V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: " V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0: " V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0: " V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: # V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: # V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0: # V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0: # V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 1206
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20c
-executing 7001
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 206
-executing d011
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 208
-executing 3025
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20a
-executing 71ff
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20e
-executing d011
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 210
-executing 601a
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+V0: 15 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 2e8
+executing 6603
+V0: 15 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 212
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing 6802
+V0: 3 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 214
-executing 6025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing 6060
+V0: 2 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 216
-executing 3100
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing f015
+V0: 60 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 218
-executing 120e
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing f007
+V0: 60 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 21a
-executing 71ff
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20e
-executing d011
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 210
-executing 601a
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 212
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 214
-executing 6025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 216
-executing 3100
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 218
-executing 120e
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing 3000
+V0: 5f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 5f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 5f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 21a
-executing 71ff
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20e
-executing d011
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 210
-executing 601a
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 212
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 214
-executing 6025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 216
-executing 3100
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 218
-executing 120e
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing 3000
+V0: 5c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 5c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 5c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 21a
-executing 71ff
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20e
-executing d011
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 210
-executing 601a
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 212
-executing d011
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 214
-executing 6025
-V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 216
-executing 3100
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 218
-executing 120e
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+executing 3000
+V0: 59 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 59 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 59 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
 PC: 21a
-executing 71ff
-V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 20e
-executing d011
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 210
-^Cexecuting 601a
-V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
-PC: 212
+executing 3000
+V0: 56 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 56 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 56 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 53 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 53 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 53 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 50 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 50 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 50 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 4d V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 4d V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 4d V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 4a V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 4a V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 4a V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 47 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 47 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 47 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 44 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 44 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 44 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 41 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 41 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 41 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 3e V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 3e V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 3e V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 3b V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 3b V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 3b V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 38 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 38 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 38 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 35 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 35 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 35 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 32 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 32 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 32 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 2f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 2f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 2f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 2c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 2c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 2c V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 29 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 29 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 29 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 26 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 26 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 26 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 23 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 23 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 23 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 20 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 20 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 20 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 1d V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 1d V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 1d V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 1a V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 1a V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 1a V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 17 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 17 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 17 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 14 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 14 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 14 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 11 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 11 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 11 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: e V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: e V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: e V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: b V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: b V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: b V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 8 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 8 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 8 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 5 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 5 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 5 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 2 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing 121a
+V0: 2 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21e
+executing f007
+V0: 2 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21a
+executing 3000
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 21c
+executing c717
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 220
+executing 7708
+V0: 3 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 222
+executing 69ff
+V0: b V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 224
+executing a2f0
+V0: ff V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 226
+executing d671
+V0: ff V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 228
+executing a2ea
+V0: ff V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 22a
+executing dab6
+V0: ff V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 22c
+executing dcd6
+V0: ff V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 22e
+executing 6001
+V0: ff V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 230
+executing e0a1
+V0: 1 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 232
+executing 6004
+V0: 1 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 236
+executing e0a1
+V0: 4 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 238
+executing 601f
+V0: 4 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 23c
+executing 8b02
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 23e
+executing dab6
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 240
+executing 8d70
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 242
+executing c00a
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 244
+executing 7dfe
+V0: 8 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 246
+executing 4000
+V0: 6 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 248
+executing 6000
+V0: 6 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 24c
+executing 601f
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 24e
+executing 8d02
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 250
+executing dcd6
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 252
+executing a2f0
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 254
+executing d671
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 1 
+PC: 256
+executing 8684
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 258
+executing 8794
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 25a
+executing 603f
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 25c
+executing 8602
+V0: 3f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 25e
+executing 611f
+V0: 3f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 260
+executing 8712
+V0: 1f V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 262
+executing 4602
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 264
+executing 463f
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 268
+executing 471f
+V0: 0 V1: 0 V2: 0 V3: 0 V4: 0 V5: 0 V6: 0 V7: 0 V8: 0 V9: 0 Va: 0 Vb: 0 Vc: 0 Vd: 0 Ve: 0 Vf: 0 
+PC: 26c
