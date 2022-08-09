@@ -135,7 +135,12 @@ void Chip8::Cycle(){
      * right bit shifted, and another byte is OR'd so two bytes are combined.
      */
     opcode = (memory[pc] << 8u) | memory[pc+1];
-    std::cout << "executing "<<std::hex<<opcode<<std::endl;
+    std::cout << "executing "<<std::hex<<(int)opcode<<std::endl;
+    for(int i = 0; i <= 0xF; ++i){
+        std::cout << "V" << i << ": " << std::hex<< (int)registers[i]<<" ";
+    }
+    std::cout<<std::endl;
+    std::cout << "PC: "<<std::hex<<(int)pc<<std::endl;
 
     /*
      * Instruction Cycle: Increment PC
@@ -250,8 +255,7 @@ Then bitmask opcode again with 0x00FF to extract kk. Add 2 to PC if kk == v[x]
 */
 void Chip8::OP_3xkk(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
     
     uint8_t kk = opcode & 0x00FFu;
 
@@ -267,8 +271,7 @@ Implementation: Same as 3xkk, but if statement is != instead of ==
 */
 void Chip8::OP_4xkk(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;;
     
     uint8_t kk = opcode & 0x00FFu;
 
@@ -284,11 +287,9 @@ Implementation: Netmask x and y and right bit shift accordingly, compare them us
 */
 void Chip8::OP_5xy0(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
     
-    uint8_t y = opcode & 0x00F0u;
-    y = y>>4u;
+    uint8_t y = (opcode & 0x00F0u) >> 4u;
 
     if(registers[x] == registers[y]){
         pc += 2;
@@ -302,8 +303,8 @@ Implementation: Netmask kk and load it into registers[x]
 */
 void Chip8::OP_6xkk(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
+    std::cout<<int(x)<<std::endl;
     
     uint8_t kk = opcode & 0x00FFu;
 
@@ -317,8 +318,7 @@ Implementation: Bitmask x and kk individually and add kk's value into register[x
 */
 void Chip8::OP_7xkk(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
     
     uint8_t kk = opcode & 0x00FFu;
 
@@ -332,11 +332,9 @@ Implementation: Bitmask x and y individually and set v[x] = v[y]
 */
 void Chip8::OP_8xy0(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
     
-    uint8_t y = opcode & 0x00F0u;
-    y = y>>4u;
+    uint8_t y = (opcode & 0x00F0u) >> 4u;
 
     registers[x] = registers[y];
 }
@@ -348,11 +346,9 @@ Implementation: Bitmask x and y individually and set v[x] = v[x] | v[y]
 */
 void Chip8::OP_8xy1(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
     
-    uint8_t y = opcode & 0x00F0u;
-    y = y>>4u;
+    uint8_t y = (opcode & 0x00F0u) >> 4u;
 
     registers[x] = registers[x] | registers[y];
 }
@@ -364,11 +360,9 @@ Implementation: Bitmask x and y individually and set v[x] = v[x] & v[y]
 */
 void Chip8::OP_8xy2(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
     
-    uint8_t y = opcode & 0x00F0u;
-    y = y>>4u;
+    uint8_t y = (opcode & 0x00F0u) >> 4u;
 
     registers[x] = registers[x] & registers[y];
 }
@@ -380,11 +374,9 @@ Implementation: Bitmask x and y individually and set v[x] = v[x] ^ v[y]
 */
 void Chip8::OP_8xy3(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u)>>8u;
     
-    uint8_t y = opcode & 0x00F0u;
-    y = y>>4u;
+    uint8_t y = (opcode & 0x00F0u)>>4u;
 
     registers[x] = registers[x] ^ registers[y];
 }
@@ -397,11 +389,9 @@ if total is bigger than 255, set VF to 1 and subtract/bitmask carry.
 */
 void Chip8::OP_8xy4(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u)>>8u;
     
-    uint8_t y = opcode & 0x00F0u;
-    y = y>>4u;
+    uint8_t y = (opcode & 0x00F0u)>>4u;
 
     uint32_t total = registers[x] + registers[y];
 
@@ -423,11 +413,9 @@ if Vx is bigger than Vy, set V[16] to 1 and 0 otherwise.
 */
 void Chip8::OP_8xy5(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u)>>8u;
     
-    uint8_t y = opcode & 0x00F0u;
-    y = y>>4u;
+    uint8_t y = (opcode & 0x00F0u)>>4u;
 
     if (registers[x] > registers[y]){
         registers[0xF] = 1u;
@@ -447,8 +435,8 @@ Implementation: use >> operator after bitmasking to get Vx
 */
 void Chip8::OP_8xy6(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
+
     // save LSB to VF
     registers[0xF] = (registers[x] & 0x1);
 
@@ -462,11 +450,9 @@ Implementation: same as 8xy5 but swap Vx and Vy
 */
 void Chip8::OP_8xy7(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
     
-    uint8_t y = opcode & 0x00F0u;
-    y = y>>4u;
+    uint8_t y = (opcode & 0x00F0u) >> 4u;
 
     if (registers[x] < registers[y]){
         registers[0xF] = 1u;
@@ -485,8 +471,7 @@ Implementation:
 */
 void Chip8::OP_8xyE(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x>>8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     // save LSB to VF
     registers[0xF] = registers[x] & 0x80u;
@@ -502,11 +487,9 @@ Implementation: Extract Vx and Vy using bitmasking and conditionally check them
 */
 void Chip8::OP_9xy0(){
 
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
-    uint8_t y = opcode & 0x00F0u;
-    y = y >> 4u;
+    uint8_t y = (opcode & 0x00F0u) >> 4u;
 
     if(registers[x] != registers[y]){
         pc += 2;
@@ -544,8 +527,7 @@ Implementation: randomly generate using randByte
 */
 void Chip8::OP_Cxkk(){
     
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     uint8_t kk = opcode & 0x00FFu;
 
@@ -606,8 +588,7 @@ Functionality: Skip next instruction if key with the value of Vx is pressed
 Implementation: decrement PC by 2 if no key is pressed (which just creates an infinite loop)
 */
 void Chip8::OP_Ex9E(){
-    uint8_t x = (opcode & 0x0F00u);
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     uint8_t key = registers[x];
 
@@ -623,8 +604,7 @@ Functionality: Skip next instruction if key with the value of Vx is NOT pressed
 Implementation: 
 */
 void Chip8::OP_ExA1(){
-    uint8_t x = (opcode & 0x0F00u);
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     uint8_t key = registers[x];
 
@@ -639,8 +619,7 @@ Functionality: set Vx as value of delay timer
 Implementation: 
 */
 void Chip8::OP_Fx07(){
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     registers[x] = delayTimer;
 }
@@ -651,8 +630,7 @@ Functionality: Wati for keypress and store that value in Vx
 Implementation: 
 */
 void Chip8::OP_Fx0A(){
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     if (keypad[0]){
         registers[x] = 0;
@@ -713,8 +691,7 @@ Functionality: set delay timer as Vx
 Implementation: 
 */
 void Chip8::OP_Fx15(){
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     delayTimer = registers[x];
 }
@@ -725,8 +702,7 @@ Functionality: set sound timer as Vx
 Implementation: 
 */
 void Chip8::OP_Fx18(){
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     soundTimer = registers[x];
 }
@@ -737,8 +713,7 @@ Functionality: set I = I + Vx
 Implementation: 
 */
 void Chip8::OP_Fx1E(){
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     index += registers[x];
 }
@@ -749,8 +724,7 @@ Functionality: set I as location of sprite for digit Vx
 Implementation: 
 */
 void Chip8::OP_Fx29(){
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
     uint8_t num = registers[x];
 
     index = FONTSET_START_ADDRESS + (5 * num);
@@ -762,8 +736,7 @@ Functionality: Store BCD rep of Vx (0~255) in mem loc I (1e2), I+1 (1e1), and I+
 Implementation: modulo 10 to extract smallest digit, store that, and divide 10 again.
 */
 void Chip8::OP_Fx33(){
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
     uint8_t num = registers[x];
 
     memory[index+2] = num % 10;
@@ -781,8 +754,7 @@ Functionality: Store registers V0 through Vx in mem starting at loc I
 Implementation: 
 */
 void Chip8::OP_Fx55(){
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     for(uint8_t i = 0; i <= x; ++i){
         memory[index + i] = registers[x];
@@ -795,8 +767,7 @@ Functionality: Load registers V0 through Vx into mem starting at loc I
 Implementation: 
 */
 void Chip8::OP_Fx65(){
-    uint8_t x = opcode & 0x0F00u;
-    x = x >> 8u;
+    uint8_t x = (opcode & 0x0F00u) >> 8u;
 
     for(uint8_t i = 0; i <= x; ++i){
         registers[i] = memory[index + i];
