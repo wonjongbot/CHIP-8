@@ -127,10 +127,11 @@ class Chip8{
         //declare pointer to function for function pointer array action
         typedef void (Chip8::*Chip8Func)();
         // I think these have problems where it cannot handle erroneous pointer value? Or since this is class its constructor will buidl OP_NULL for everything...?
-        Chip8Func table[0xF + 1]{&Chip8::OP_NULL};
-        Chip8Func table0[0xE + 1]{&Chip8::OP_NULL};
-        Chip8Func table8[0xE + 1]{&Chip8::OP_NULL};
-        Chip8Func tableE[0xE + 1]{&Chip8::OP_NULL};
-        Chip8Func tableF[0x65 + 1]{&Chip8::OP_NULL};
+        // I emailed Austin Morlan (whom I referenced the emaultor from) and he agreed, so this issue is fixed now!
+        Chip8Func table[0xF + 1];
+        Chip8Func table0[0xE + 1];
+        Chip8Func table8[0xE + 1];
+        Chip8Func tableE[0xE + 1];
+        Chip8Func tableF[0x65 + 1];
 
 };

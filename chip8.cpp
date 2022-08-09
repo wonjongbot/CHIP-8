@@ -96,6 +96,12 @@ Chip8::Chip8()
     // TbF points to a function that matches its opcode and whose first digit is E
     table[0xF] = &Chip8::TbF;
 
+    // initialize array with OP_NULL for malformed opcodes
+    for (size_t i = 0; i <= 0xE; ++i){
+        table0[i] = &Chip8::OP_NULL;
+        tableE[i] = &Chip8::OP_NULL;
+        table8[i] = &Chip8::OP_NULL;
+    }
     // Function pointer for Opcodes with first three digit 00E and last two E0
     table0[0x0] = &Chip8::OP_00E0;
     // Function pointer for Opcodes with first three digit 00E and last two EE
@@ -116,6 +122,9 @@ Chip8::Chip8()
     tableE[0x1] = &Chip8::OP_ExA1;
     tableE[0xE] = &Chip8::OP_Ex9E;
 
+    for (size_t i = 0; i <= 0x65; ++i){
+        tableF[i] = &Chip8::OP_NULL;
+    }
     // Function pointers for Opcodes with first digit F
     tableF[0x07] = &Chip8::OP_Fx07;
     tableF[0x0A] = &Chip8::OP_Fx0A;
