@@ -1,0 +1,502 @@
+❯ ./exe_name 10 0 Tetris\ \[Fran\ Dachille,\ 1991\].ch8
+executing a2b4
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 200
+executing 23e6
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 202
+executing 6a00
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 3e6
+executing 6019
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 3e8
+executing ee
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 3ea
+executing 22b6
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 204
+executing 6705
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 2b6
+executing 6806
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 2b8
+executing 6904
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 2ba
+executing 611f
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 2bc
+executing 6510
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 2be
+executing 6207
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 2c0
+executing ee
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 2c2
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0: V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0: V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:      V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:      V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:      V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:      V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: 
+ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: 
+ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0: 
+ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0: 
+ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: 
+     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: 
+     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0: 
+     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0: 
+     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: 
+     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: 
+     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0: 
+     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0: 
+     V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: 1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: 1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0: 1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0: 1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0:   V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0:   V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0:   V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0:   V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: ! V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: ! V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0: ! V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0: ! V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: " V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: " V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0: " V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0: " V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: # V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: # V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0: # V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0: # V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 1206
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20c
+executing 7001
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 206
+executing d011
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 208
+executing 3025
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20a
+executing 71ff
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20e
+executing d011
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 210
+executing 601a
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 212
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 214
+executing 6025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 216
+executing 3100
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 218
+executing 120e
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 21a
+executing 71ff
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20e
+executing d011
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 210
+executing 601a
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 212
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 214
+executing 6025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 216
+executing 3100
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 218
+executing 120e
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 21a
+executing 71ff
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20e
+executing d011
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 210
+executing 601a
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 212
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 214
+executing 6025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 216
+executing 3100
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 218
+executing 120e
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 21a
+executing 71ff
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20e
+executing d011
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 210
+executing 601a
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 212
+executing d011
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 214
+executing 6025
+V0:  V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 216
+executing 3100
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 218
+executing 120e
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 21a
+executing 71ff
+V0: % V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 20e
+executing d011
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 210
+^Cexecuting 601a
+V0: $ V1:  V2:  V3:  V4:  V5:  V6:  V7:  V8:  V9:  Va:  Vb:  Vc:  Vd:  Ve:  Vf:  
+PC: 212
