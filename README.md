@@ -27,9 +27,10 @@ Here are some takeaways from this project:
 
 Required library: SDL2
 
-Use makefile to build the emulator
+Use makefile within source directory to build the emulator
 
 ``` command
+cd source
 make
 ```
 
@@ -41,4 +42,4 @@ Run the emulator
 
 - Scale: Multiplier for the window. Scale of 1 is 64 x 32 pixles
 - Delay: Delay between each instruction. Use this to control speed of a program execution
-- ROM: ROM file name
+- ROM: ROM file name. I recommend downloading from [this](https://github.com/dmatlack/chip8/tree/master/roms/games) repo
