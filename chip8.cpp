@@ -5,6 +5,7 @@
 #include <random>
 #include <cstring>
 #include <iostream>
+#include <stdlib.h> 
 
 const unsigned int START_ADDRESS = 0x200;
 const unsigned int FONTSET_SIZE = 80;
@@ -134,12 +135,9 @@ void Chip8::Cycle(){
      * single byte, while an opcode is 2 bytes. Therefore, a byte at PC is fetched,
      * right bit shifted, and another byte is OR'd so two bytes are combined.
      */
-    opcode = (memory[pc] << 8u) | memory[pc+1];
+    system("clear -x");
+    opcode = (memory[pc] << 8u) | memory[pc+1];    
     std::cout << "executing "<<std::hex<<(int)opcode<<std::endl;
-    for(int i = 0; i <= 0xF; ++i){
-        std::cout << "V" << i << ": " << std::hex<< (int)registers[i]<<" ";
-    }
-    std::cout<<std::endl;
     std::cout << "PC: "<<std::hex<<(int)pc<<std::endl;
 
     /*
@@ -157,6 +155,14 @@ void Chip8::Cycle(){
      */
     ((*this).*(table[(opcode & 0xF000u) >> 12u]))();
 
+    // Print out register values for debugging
+    for(int i = 0; i < 16; i += 4){
+        std::cout << "V" << i << ": " << std::hex<< (int)registers[i] << "\t";
+        std::cout << "V" << i+1 << ": " << std::hex<< (int)registers[i+1] << "\t";
+        std::cout << "V" << i+2 << ": " << std::hex<< (int)registers[i+2] << "\t";
+        std::cout << "V" << i+3 << ": " << std::hex<< (int)registers[i+3] << std::endl;
+    }
+    std::cout<<std::endl;
     // Decrement delay timer if set
     if(delayTimer > 0){
         --delayTimer;
@@ -304,7 +310,6 @@ Implementation: Netmask kk and load it into registers[x]
 void Chip8::OP_6xkk(){
 
     uint8_t x = (opcode & 0x0F00u) >> 8u;
-    std::cout<<int(x)<<std::endl;
     
     uint8_t kk = opcode & 0x00FFu;
 
